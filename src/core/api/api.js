@@ -4,5 +4,5 @@ import axios from "axios";
 // http://localhost:3000
 
 export const api = axios.create({
-  baseURL: "http://gateway.marvel.com/v1/public",
+  baseURL: "https://gateway.marvel.com/v1/public",
 });
